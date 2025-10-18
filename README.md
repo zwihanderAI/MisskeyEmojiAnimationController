@@ -1,4 +1,4 @@
-# Misskey Emoji ANimation Controller
+# Misskey Emoji Animation Controller
 
 ## 概要
 Misskeyを開いているブラウザのウィンドウがアクティブでないとき、カスタム絵文字のアニメーションを停止しGPU負荷を軽減する
