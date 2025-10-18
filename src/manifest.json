@@ -1,0 +1,24 @@
+{
+    "name": "Misskey Emoji Animation Controller",
+    "description": "Misskeyを開いているブラウザのウィンドウがアクティブでないとき、カスタム絵文字のアニメーションを停止しGPU負荷を軽減する。",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": "MisskeyIcon.png"
+    },
+    "icons": {
+        "48": "MisskeyIcon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://buicha.social/*",
+                "https://misskey.niri.la/*",
+                "https://nekolobby.niri.la/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
